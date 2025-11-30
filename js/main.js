@@ -1767,7 +1767,7 @@ function chooseMeal() {
       
     ` ;
 
-        if (meals[i].cookTime > "45 min" || meals[i].prepTime > "45 min") {
+        if (meals[i].cookTime  > "45 min" || meals[i].prepTime > "45 min") {
 
             document.getElementById("warning-div").innerHTML = `
          <span class="warning-span"><i class="fa-solid fa-triangle-exclamation"></i></span>
