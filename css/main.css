@@ -1,0 +1,326 @@
+.nav-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.div-img{
+    width: 40px;
+    height: 40px;
+    border:solid 2px  #F9B970;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-link i{
+    color: #545759;
+    transition: all 0.2s;
+ }
+nav .nav-link i:hover{
+    color: #F54A00;
+}
+.icon-nav{
+    height: 50px;
+    width: 50px;
+     background-color: #F54A00;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+color: black;
+margin: 0 !important;
+}
+.nav-content h4{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:oklch(0.551 0.027 264.364);
+}
+nav{
+ background-color: #FFFFFF;
+ border-bottom: #dcd0b5 solid 1px;
+ box-shadow: 1px 1px 10px #fff4d9 ;
+}
+
+
+
+
+
+
+
+
+
+figure{
+    border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+
+}
+.n{
+    height: 100vh !important;
+     padding: 0px 15px;
+ }
+.div-img2 img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+figcaption{
+    bottom: 15px;
+    padding:15px 24px;    
+      border-radius: 16px;
+      left: 24px;
+      right: 24px;
+   }
+ .inner-div h4{
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 20px;
+    color: oklch(0.551 0.027 264.364);
+    margin: 0;
+
+ }
+
+ .w{
+    padding: 20px 10px;
+    height: 100vh !important;
+     overflow-y: scroll !important;
+    } 
+    ::-webkit-scrollbar{
+        width: 6px;
+
+        background-color: #dcd0b5;
+        border-radius: 30px;
+     }
+
+
+ .inner-div h5{
+    font-size:16px ;
+    font-weight: 700;
+    line-height: 24px;
+    color:oklch(0.21 0.034 264.665);
+
+ }
+ .fa-clock{
+    color: #FF6900;
+ }
+ .fa-fire-burner{
+    color: #FB2C36;
+ }
+ .fa-users{
+    color: #2B7FFF;
+ }
+
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent !important;
+ } 
+
+ .nav-pills .nav-link.active{
+    position: relative;
+    padding: 5px 16px !important ;
+   }
+
+.nav-pills .nav-link.active::after{
+    content: "";
+    background-color: #F54A00;
+    position: absolute;
+    width:100px;
+     height: 1px;
+     padding: 0 !important;
+     bottom: 0;
+     left: 20;
+       
+ }
+ .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #F54A00 !important;
+ }
+ .nav-pills a{
+    color: #545759 !important;
+ }
+ .nav-pills a:hover{
+
+    color: black !important;
+ } 
+ .nav-link.active:hover{
+    color:#545759 !important;
+ }
+
+ .index{
+    background-color: #F54A00;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ div[ aria-labelledby=pills-home-tab]{
+     background-color: #FFF9EC;
+     padding: 7px;
+  }
+ 
+  .tab-content{
+   max-height: 350px;
+    overflow-y: auto !important;
+    }
+ .index2{
+    background-color: #FF6900;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .nutrition-div {
+    background-color:#F9FAFB;
+ }
+
+ div[  aria-labelledby=pills-contact-tab]{
+
+    background-color:#FFFFFF;
+ }
+ .fa-fire-span i{
+    color:#F54A00;
+    background-color:#FFEDD4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+ }
+ 
+ .fa-wheat-span i{
+    color:#D08700  ;
+    background-color:#FEF9C2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+ }
+ 
+ .fa-dumbbell-span i{
+    color:#155DFC  ;
+    background-color:#DBEAFE;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+ }
+
+ 
+
+ 
+ .fa-droplet-span i{
+    color:#E7000B  ;
+    background-color:#FFE2E2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+ }
+ .chef-div{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    background-color:#FFFBEB ;
+ border-left:solid #FFB900 5px ;
+ border-top-left-radius:10px ;
+  border-bottom-left-radius:10px ;
+
+}
+.right{
+    background-color: #E17100;
+    color: white;
+
+}
+.fa-check{
+    font-size: 10px !important;
+}
+.div-warning{
+    background-color: #FEF2F2;
+    border-left:solid 5px  #FB2C36 ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:  10px;
+    margin: 15px 0px;
+
+
+
+}
+
+.c{
+    top: 10px;
+    left: 30px;
+    background-color: white;
+    padding: 1px 10px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.fa-star{
+ color:gold;
+ font-size: 13px;
+ margin-right: 5px;
+  height: fit-content !important;
+}
+.warning-span{
+    color: #FB2C36;
+    font-size: 25px;
+    margin-right: 15px;
+    padding-left: 10px;
+ }
+.div-warning div h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: oklch(0.444 0.177 26.899);
+
+}
+
+.div-warning div p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: oklch(0.577 0.245 27.325);
+}
+
+.green-span{
+    background-color:#DBFCE7;
+    border-radius: 10px;
+       padding: 6px;
+       margin-right: 10px;
+ 
+}
+
+
+.blue-span{
+    background-color:#DBEAFE;
+    border-radius: 10px;
+       padding: 3px  10px;
+       margin-right: 10px;
+       margin-bottom: 10px;
+           
+}
+.recipes-choose{
+background: linear-gradient(90deg , #FD5800 30% ,#E80007 80%);
+width: 250px;
+padding: 15px;
+border-radius: 10px;
+color: white !important;
+}
+ 
+.w{
+    background-color: #FFFFFF !important;
+}
+main{
+    background-color: #FFFAEB;
+}
